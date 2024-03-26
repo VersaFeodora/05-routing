@@ -36,3 +36,14 @@ When creating nested dynamic routing, it's simply to add another folder inside d
 From the code above, it can be seen that there are 2 parameters used inside Props, and is called with `params.reviewId` and `params.productId` to attach said parameter inside the web.
 The result is below;
 ![Screenshot](README-pic/3f.png)<br/>
+
+### Practicum 4
+![Screenshot](README-pic/4a.png)<br/>
+New hyperlink texts will appear. When user click on it, they will be redirected into the URL that is assigned to said hyperlink.
+<br/><br/>
+Having the user directed to `/products/[productId]/reviews/[reviewId]` can be achieved by steps below;
+- ![Screenshot](README-pic/4b.png)<br/>Having a new link directed to `/products`
+- ![Screenshot](README-pic/4c.png)<br/>Having a list of products, each is directed to `/products/[productId]` based on their parameter
+- ![Screenshot](README-pic/4d.png)<br/>Having a new link directed to `/reviews`
+- ![Screenshot](README-pic/4e.png)<br/>Having a list of reviews, each is directed to `/reviews/[reviewId]` based on their parameter
+- ![Screenshot](README-pic/4f.png)<br/>Final page
